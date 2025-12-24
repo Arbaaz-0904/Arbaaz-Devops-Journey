@@ -11,7 +11,7 @@ This project implements a production-grade AWS architecture designed for high se
 ![Project Screenshot](images/unnamed.png)
 
 # Step-by-Step Implementation
-Step 1: Create VPC
+# Step 1: Create VPC
 Go to VPC → Create VPC.
 Select = VPC & more: This helps in understanding the process of creating imagination on understanding the concept of VPC.
 Name: project-vpc (any name).
