@@ -1,0 +1,17 @@
+---
+- name : Install and Start nginx
+  hosts : all
+  become : true
+  become_method : sudo
+  tasks :
+    - name : Install nginx
+      apt :
+        name : nginx
+        state : present 
+        update_cache: yes
+
+    - name : Start nginx service
+      service:
+        name : nginx
+        state : started
+        enabled: true 
